@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Coffee | Bourbon, Fully Washed, SCA 83 | Finca Argelia</title>
+  <meta name="description" content="Traditional Bourbon, 1,067 masl, fully washed, SCA 83 pts. Tasting notes, harvest calendar, and production details from Finca Argelia.">
+  <meta property="og:title" content="Our Coffee | Finca Argelia">
+  <meta property="og:description" content="Traditional Bourbon, fully washed, SCA 83 from Tecuamburro volcano.">
+  <meta property="og:image" content="images/photos/coffee plant.jpeg">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.png" alt="Finca Argelia" width="180" height="48">
+      </a>
+      <ul class="nav__links">
+        <li><a href="about.html" data-i18n="nav.about">Our Story</a></li>
+        <li><a href="coffee.html" data-i18n="nav.coffee">Our Coffee</a></li>
+        <li><a href="buyers.html" data-i18n="nav.buyers">For Buyers</a></li>
+        <li><a href="stay.html" data-i18n="nav.stay">Stay With Us</a></li>
+        <li><a href="conservation.html" data-i18n="nav.conservation">Conservation</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="nav__right">
+        <div class="lang-toggle">
+          <button class="active" data-lang="en">EN</button>
+          <button data-lang="es">ES</button>
+        </div>
+        <a href="contact.html" class="btn btn--primary btn--small" data-i18n="nav.cta">Request a Sample</a>
+        <button class="nav__hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav__mobile" role="dialog" aria-label="Mobile navigation">
+    <a href="about.html" data-i18n="nav.about">Our Story</a>
+    <a href="coffee.html" data-i18n="nav.coffee">Our Coffee</a>
+    <a href="buyers.html" data-i18n="nav.buyers">For Buyers</a>
+    <a href="stay.html" data-i18n="nav.stay">Stay With Us</a>
+    <a href="conservation.html" data-i18n="nav.conservation">Conservation</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    <div class="lang-toggle" style="margin-top: 1rem;">
+      <button class="active" data-lang="en">EN</button>
+      <button data-lang="es">ES</button>
+    </div>
+    <a href="contact.html" class="btn btn--primary" data-i18n="nav.cta">Request a Sample</a>
+  </div>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="page-header__bg">
+      <img src="images/photos/coffee plant.jpeg" alt="Bourbon coffee cherries" class="photo-warm" fetchpriority="high">
+    </div>
+    <div class="page-header__overlay"></div>
+    <div class="page-header__content">
+      <p class="page-header__label" data-i18n="coffee.header.label">Specialty Bourbon</p>
+      <h1 class="page-header__title" data-i18n="coffee.header.title">Our Coffee</h1>
+      <p class="page-header__desc" data-i18n="coffee.header.desc">Traditional Bourbon from 40-year-old trees, rooted in volcanic clay on Tecuamburro volcano. Fully washed at our on-farm wet mill.</p>
+    </div>
+  </section>
+
+  <!-- Spec Overview -->
+  <section class="section">
+    <div class="container">
+      <div class="coffee-hero-grid fade-in">
+        <div>
+          <span class="label label--red" data-i18n="coffee.spec.label">Technical Specifications</span>
+          <h2 data-i18n="coffee.spec.title">The Details That Matter</h2>
+          <table class="spec-table">
+            <tbody>
+              <tr>
+                <td data-i18n="coffee.spec.varietal">Varietal</td>
+                <td data-i18n="coffee.spec.varietal.v">Traditional Bourbon (40-year-old trees)</td>
+              </tr>
+              <tr>
+                <td data-i18n="coffee.spec.altitude">Altitude</td>
+                <td>1,067 masl / 3,500 ft</td>
+              </tr>
+              <tr>
+                <td data-i18n="coffee.spec.region">Region</td>
+                <td data-i18n="coffee.spec.region.v">Boca Costa, Santa Rosa, Guatemala</td>
+              </tr>
+              <tr>
+                <td data-i18n="coffee.spec.process">Process</td>
+                <td data-i18n="coffee.spec.process.v">Fully Washed (on-farm wet mill)</td>
+              </tr>
+              <tr>
+                <td data-i18n="coffee.spec.score">SCA Score</td>
+                <td>83</td>
+              </tr>
+              <tr>
+                <td data-i18n="coffee.spec.harvest">Harvest</td>
+                <td data-i18n="coffee.spec.harvest.v">November &ndash; February</td>
+              </tr>
+              <tr>
+                <td data-i18n="coffee.spec.export">Export Ready</td>
+                <td data-i18n="coffee.spec.export.v">March &ndash; April</td>
+              </tr>
+              <tr>
+                <td data-i18n="coffee.spec.production">Annual Production</td>
+                <td data-i18n="coffee.spec.production.v">~60,000 lbs (~454 bags of 69 kg)</td>
+              </tr>
+              <tr>
+                <td data-i18n="coffee.spec.area">Growing Area</td>
+                <td data-i18n="coffee.spec.area.v">70 hectares</td>
+              </tr>
+              <tr>
+                <td data-i18n="coffee.spec.shade">Shade</td>
+                <td data-i18n="coffee.spec.shade.v">Cedro and Gravilea canopy</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="aspect-3-2">
+          <img src="images/photos/Coffee Bags.jpeg" alt="Coffee bags ready for export at Finca Argelia" class="img-cover photo-warm" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Terroir -->
+  <section class="section" style="background: rgba(139, 26, 26, 0.03);">
+    <div class="container container--narrow">
+      <div class="text-center fade-in" style="margin-bottom: var(--space-md);">
+        <span class="label label--red" data-i18n="coffee.terroir.label">Terroir</span>
+        <h2 data-i18n="coffee.terroir.title">The Boca Costa Difference</h2>
+      </div>
+      <p class="fade-in" data-i18n="coffee.terroir.p1">At 1,067 meters above sea level on the slopes of Tecuamburro volcano, our boca costa position &mdash; where the humid Pacific lowlands meet the cooler highlands &mdash; produces a distinct profile: heavier body, chocolate and caramel sweetness, smoother acidity. For roasters looking for a versatile single origin or an espresso-blend component, this is exactly the character they want.</p>
+      <p class="fade-in" data-i18n="coffee.terroir.p2">Our family has had 135 years to understand what works on this mountain. The 40-year-old Bourbon trees are rooted deep in volcanic clay, fed by three natural springs, and shaded by a mature Cedro and Gravilea canopy that creates the ideal microclimate for slow cherry development.</p>
+    </div>
+  </section>
+
+  <!-- Tasting Notes -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="label" style="color: var(--color-accent-light);" data-i18n="coffee.tasting.label">Tasting Profile</span>
+        <h2 data-i18n="coffee.tasting.title">In the Cup</h2>
+        <p style="max-width: 600px; margin: var(--space-sm) auto var(--space-lg); color: var(--color-accent-light);" data-i18n="coffee.tasting.desc">Chocolate, brown sugar, soft citrus, mild stone fruit, smooth body, clean finish.</p>
+      </div>
+      <div class="grid-3 grid fade-in" style="text-align: center;">
+        <div>
+          <h3 style="font-size: 2.5rem; margin-bottom: 0.25rem;">83</h3>
+          <p class="label" style="color: var(--color-accent-light);" data-i18n="coffee.tasting.sca">SCA Cupping Score</p>
+        </div>
+        <div>
+          <h3 style="font-size: 2.5rem; margin-bottom: 0.25rem;" data-i18n="coffee.tasting.body.value">Smooth</h3>
+          <p class="label" style="color: var(--color-accent-light);" data-i18n="coffee.tasting.body">Body</p>
+        </div>
+        <div>
+          <h3 style="font-size: 2.5rem; margin-bottom: 0.25rem;" data-i18n="coffee.tasting.acidity.value">Mild</h3>
+          <p class="label" style="color: var(--color-accent-light);" data-i18n="coffee.tasting.acidity">Acidity</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center fade-in" style="margin-bottom: var(--space-lg);">
+        <span class="label label--red" data-i18n="coffee.process.label">Our Process</span>
+        <h2 data-i18n="coffee.process.title">From Cherry to Green</h2>
+      </div>
+      <div class="coffee-process-grid fade-in">
+        <div class="card">
+          <div class="card__img">
+            <img src="images/photos/coffee plantation.jpeg" alt="Coffee plantation at Finca Argelia" class="photo-warm" loading="lazy" decoding="async">
+          </div>
+          <div class="card__body">
+            <h4 class="card__title" data-i18n="coffee.process.harvest.title">Selective Harvest</h4>
+            <p class="card__text" data-i18n="coffee.process.harvest.text">Hand-picked during November through February. Only ripe cherries are selected from our 40-year-old Bourbon trees across 70 hectares.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img src="images/photos/Coffee Processing.jpeg" alt="Wet mill processing at Finca Argelia" class="photo-warm" loading="lazy" decoding="async">
+          </div>
+          <div class="card__body">
+            <h4 class="card__title" data-i18n="coffee.process.wash.title">Fully Washed</h4>
+            <p class="card__text" data-i18n="coffee.process.wash.text">Processed at our on-farm wet mill. Cherries are depulped, fermented, and washed in our fermentation tanks to develop clean, expressive flavors.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img src="images/photos/Coffee dry patio.jpeg" alt="Coffee drying patios at Finca Argelia" class="photo-warm" loading="lazy" decoding="async">
+          </div>
+          <div class="card__body">
+            <h4 class="card__title" data-i18n="coffee.process.dry.title">Sun Dried</h4>
+            <p class="card__text" data-i18n="coffee.process.dry.text">Dried on open-air patios under the Guatemalan sun, turned regularly by hand for even drying. Export-ready by March&ndash;April.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Full Width Worker Image -->
+  <section style="margin: 0;">
+    <div class="aspect-16-9" style="max-height: 500px;">
+      <img src="images/photos/Worker.jpeg" alt="Worker raking coffee on the drying patio at Finca Argelia" class="img-cover photo-warm" loading="lazy" decoding="async">
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="sample-cta fade-in">
+        <h3 data-i18n="coffee.cta.title">Taste It Yourself</h3>
+        <p data-i18n="coffee.cta.desc">We ship free 100g green samples worldwide. Request yours and experience our Bourbon from Tecuamburro.</p>
+        <a href="contact.html" class="btn btn--light" data-i18n="nav.cta">Request a Sample</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <img src="images/logo.png" alt="Finca Argelia" class="footer__logo">
+        <p class="footer__tagline" data-i18n="footer.tagline">Five Generations. One Mountain. The Same Bourbon.</p>
+      </div>
+      <div class="footer__grid">
+        <div class="footer__col">
+          <h4 data-i18n="footer.nav.title">Navigation</h4>
+          <a href="about.html" data-i18n="nav.about">Our Story</a>
+          <a href="coffee.html" data-i18n="nav.coffee">Our Coffee</a>
+          <a href="buyers.html" data-i18n="nav.buyers">For Buyers</a>
+          <a href="stay.html" data-i18n="nav.stay">Stay With Us</a>
+          <a href="conservation.html" data-i18n="nav.conservation">Conservation</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer.contact.title">Get in Touch</h4>
+          <a href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="mailto:info@argeliacoffee.com">info@argeliacoffee.com</a>
+          <a href="https://instagram.com/agropecuariaargelia" target="_blank" rel="noopener">@agropecuariaargelia</a>
+        </div>
+        <div class="footer__col">
+          <h4 data-i18n="footer.location.title">Location</h4>
+          <p data-i18n="footer.location.desc">Pueblo Nuevo Vi&ntilde;as, Santa Rosa, Guatemala. One hour from Guatemala City by car.</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Finca Argelia &mdash; The Ossaye Family. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js"></script>
+</body>
+</html>

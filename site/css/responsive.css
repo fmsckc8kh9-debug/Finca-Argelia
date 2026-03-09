@@ -1,0 +1,117 @@
+/* ========================================
+   SMALL (600px+)
+   ======================================== */
+@media (min-width: 600px) {
+  .stats-bar {
+    flex-wrap: wrap;
+  }
+
+  .stats-bar__item {
+    min-width: 120px;
+  }
+}
+
+/* ========================================
+   MEDIUM (900px+)
+   ======================================== */
+@media (min-width: 900px) {
+  .section {
+    padding: var(--space-2xl) 0;
+  }
+
+  .hero__content {
+    padding: var(--space-xl) var(--container-padding);
+  }
+
+  .stats-bar {
+    flex-wrap: nowrap;
+  }
+
+  .stats-bar__item {
+    min-width: 0;
+  }
+}
+
+/* ========================================
+   LARGE (1200px+)
+   ======================================== */
+@media (min-width: 1200px) {
+  .hero {
+    min-height: 90vh;
+  }
+}
+
+/* ========================================
+   MOBILE ADJUSTMENTS (below 600px)
+   ======================================== */
+@media (max-width: 599px) {
+  .stats-bar {
+    flex-direction: column;
+  }
+
+  .stats-bar__item {
+    flex-direction: row;
+    justify-content: space-between;
+    border-right: none;
+    border-bottom: 1px solid var(--color-accent-light);
+    padding: 0.75rem 0;
+    min-width: 0;
+  }
+
+  .stats-bar__item:last-child {
+    border-bottom: none;
+  }
+
+  .hero--short {
+    min-height: 35vh;
+  }
+
+  .page-header {
+    padding: var(--space-xl) 0 var(--space-lg);
+  }
+
+  .footer__grid {
+    text-align: center;
+  }
+
+  .timeline {
+    padding-left: var(--space-sm);
+  }
+
+  .timeline__item::before {
+    left: calc(-1 * var(--space-sm) - 5px);
+  }
+
+  .pull-quote p {
+    font-size: 1.05rem;
+  }
+
+  .spec-table th,
+  .spec-table td {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* ========================================
+   PRINT STYLES
+   ======================================== */
+@media print {
+  .nav, .footer, .whatsapp-float, .nav__mobile {
+    display: none !important;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 2rem 0;
+  }
+
+  .hero__bg, .hero__overlay {
+    display: none;
+  }
+
+  body {
+    color: #000;
+    background: #fff;
+  }
+}
