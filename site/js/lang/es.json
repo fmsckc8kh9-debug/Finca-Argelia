@@ -30,7 +30,7 @@
   "home.coffee.label": "Nuestro Café",
   "home.coffee.title": "Bourbon Tradicional, Perfeccionado por Generaciones",
   "home.coffee.desc": "Árboles de Bourbon de 40 años, con raíces profundas en arcilla volcánica, bajo la sombra de Cedro y Gravilea, alimentados por tres manantiales naturales. Lavado completo en nuestro beneficio húmedo. SCA 83 puntos.",
-  "home.coffee.notes": "Perfil de cata: chocolate, azúcar morena, cítricos suaves, fruta de hueso, cuerpo redondo, final limpio.",
+  "home.coffee.notes": "<span class=\"flavor-tag\">chocolate</span><span class=\"flavor-tag\">azúcar morena</span><span class=\"flavor-tag\">cítricos suaves</span><span class=\"flavor-tag\">fruta de hueso</span><span class=\"flavor-tag\">cuerpo redondo</span><span class=\"flavor-tag\">final limpio</span>",
   "home.coffee.link": "Ver Detalles del Café",
 
   "home.conservation.label": "Conservación",
@@ -143,7 +143,7 @@
 
   "coffee.tasting.label": "Perfil de Cata",
   "coffee.tasting.title": "En la Taza",
-  "coffee.tasting.desc": "Chocolate, azúcar morena, cítricos suaves, fruta de hueso, cuerpo redondo, final limpio.",
+  "coffee.tasting.desc": "<span class=\"flavor-tag\">chocolate</span><span class=\"flavor-tag\">azúcar morena</span><span class=\"flavor-tag\">cítricos suaves</span><span class=\"flavor-tag\">fruta de hueso</span><span class=\"flavor-tag\">cuerpo redondo</span><span class=\"flavor-tag\">final limpio</span>",
   "coffee.tasting.sca": "Puntaje de Cata SCA",
   "coffee.tasting.body.value": "Redondo",
   "coffee.tasting.body": "Cuerpo",
