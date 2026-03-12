@@ -30,7 +30,7 @@
   "home.coffee.label": "Our Coffee",
   "home.coffee.title": "Traditional Bourbon, Perfected Over Generations",
   "home.coffee.desc": "40-year-old Bourbon trees, their roots deep in volcanic clay, shaded by Cedro and Gravilea, fed by three natural springs. Fully washed at our on-farm wet mill. SCA 83 points.",
-  "home.coffee.notes": "Tasting profile: chocolate, brown sugar, soft citrus, mild stone fruit, smooth body, clean finish.",
+  "home.coffee.notes": "<span class=\"flavor-tag\">chocolate</span><span class=\"flavor-tag\">brown sugar</span><span class=\"flavor-tag\">soft citrus</span><span class=\"flavor-tag\">mild stone fruit</span><span class=\"flavor-tag\">smooth body</span><span class=\"flavor-tag\">clean finish</span>",
   "home.coffee.link": "View Coffee Details",
 
   "home.conservation.label": "Conservation",
@@ -143,7 +143,7 @@
 
   "coffee.tasting.label": "Tasting Profile",
   "coffee.tasting.title": "In the Cup",
-  "coffee.tasting.desc": "Chocolate, brown sugar, soft citrus, mild stone fruit, smooth body, clean finish.",
+  "coffee.tasting.desc": "<span class=\"flavor-tag\">chocolate</span><span class=\"flavor-tag\">brown sugar</span><span class=\"flavor-tag\">soft citrus</span><span class=\"flavor-tag\">mild stone fruit</span><span class=\"flavor-tag\">smooth body</span><span class=\"flavor-tag\">clean finish</span>",
   "coffee.tasting.sca": "SCA Cupping Score",
   "coffee.tasting.body.value": "Smooth",
   "coffee.tasting.body": "Body",
